@@ -8,10 +8,9 @@ class Shingling:
         #get shingles and then hash
         for i in range(0, len(text) - k + 1):
             shingle = text[i:i + k]
-            hashedShingle = hash(shingle)
-            self.hashedShingles.add(hashedShingle)
+            hashedshingle = hash(shingle)
+            self.hashedShingles.add(hashedshingle)
 
-        return self.hashedShingles
 
 
 
