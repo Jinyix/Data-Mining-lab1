@@ -5,3 +5,6 @@ class CompareSets:
         intersection = set1 & set2
         union = set1 | set2
         self.similarity = len(intersection) / len(union)
+    
+    def getSimilarity(self):
+        return self.similarity
