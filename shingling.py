@@ -1,5 +1,3 @@
-import binascii
-
 
 class Shingling:
 
